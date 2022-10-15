@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+
+body {
+  background-color: #393E45;
+  font-family: 'Roboto', sans-serif;
+  color: #D1D5DE;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+}
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #D1D5DE;
+  color: #393E45;
+  font-size: 3rem;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+button {
+  border: 0;
+  background: #D1D5DE;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  cursor: pointer;
+  height: 2rem;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  
+}
+
+input {
+  height: 2rem;
+  border: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}
+
+h2 {
+  margin-top: 2rem;
+  font-weight: 400;
+  font-size:3rem;
+}
+
+h3 {
+  margin-bottom: 1rem;
+}
+
+.walletG, .walletD {
+  width: 50%;
+}
+
+.wallet_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.error, .success {
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+.error {
+  background: #d51009;
+  color:#D1D5DE;
+}
+
+.success {
+  background: #03c21d;
+  color:#D1D5DE;
+}
