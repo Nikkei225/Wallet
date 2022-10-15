@@ -1,2 +1,1 @@
-# wallet
- 
+First little DAPP project
